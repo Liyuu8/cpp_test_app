@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  cpp-test-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cpp-test-app
+    container_name: cpp-test-app
+    volumes:
+      - type: bind
+        source: ./src
+        target: /home/cppdev/src
+    stdin_open: true
+    tty: true
+    working_dir: /home/cppdev
