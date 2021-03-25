@@ -12,3 +12,7 @@ $ docker-compose down
 > Google Test ことはじめ
 > 
 > https://techblog.kayac.com/google-test
+
+> unittest --- ユニットテストフレームワーク
+> 
+> https://docs.python.org/ja/dev/library/unittest.html#unittest.main
