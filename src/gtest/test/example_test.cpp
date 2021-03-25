@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "src/example.cpp"
+#include "src/gtest/example.cpp"
 
 TEST(example_test, func_sum)
 {
