@@ -2,7 +2,8 @@ FROM centos:centos7
 
 RUN yum update -y && \
   yum groupinstall -y 'Development Tools' && \
-  yum install -y cmake clang libssl-dev
+  yum install -y cmake clang libssl-dev yum-utils && \
+  debuginfo-install -y glibc
 
 WORKDIR /home/cppdev/googletest
 

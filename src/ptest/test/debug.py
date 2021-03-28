@@ -25,6 +25,9 @@ class Test(unittest.TestCase):
         self.gdbStrAssertEqual('make_pair(3, 4)', '{l = 3, r = 4}')
 
 
+gdb.execute('set logging file src/ptest/log/unittest_result.log')
+gdb.execute('set logging on')
 gdb.execute('break main')
 gdb.execute('run')
 unittest.main(verbosity=2)
+gdb.execute('set logging off')
