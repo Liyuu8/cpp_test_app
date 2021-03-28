@@ -13,3 +13,7 @@ services:
     stdin_open: true
     tty: true
     working_dir: /home/cppdev
+    cap_add:
+      - "SYS_PTRACE"
+    security_opt: 
+      - "seccomp=unconfined"

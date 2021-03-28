@@ -1,5 +1,8 @@
 #include <stdio.h>
+
 int add(int a, int b);
+bool isOdd(int a);
+
 struct Pair
 {
   int l;
@@ -16,7 +19,7 @@ int add(int a, int b)
   return a + b;
 }
 
-int isOdd(int a)
+bool isOdd(int a)
 {
   return a % 2 == 1;
 }

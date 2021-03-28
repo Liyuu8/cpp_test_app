@@ -16,3 +16,7 @@ $ docker-compose down
 > unittest --- ユニットテストフレームワーク
 > 
 > https://docs.python.org/ja/dev/library/unittest.html#unittest.main
+
+> PythonでC言語の単体テストを書く
+> 
+> https://qiita.com/nnabeyang/items/e084a553c956bf6689fa
