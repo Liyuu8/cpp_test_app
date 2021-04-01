@@ -1,0 +1,21 @@
+
+test_bp_test_func_ret_true (__main__.Test)
+[BP::test ret=true] ... Breakpoint 1 at 0x4006fe: file src/ptest/main.cpp, line 8.
+
+Breakpoint 1, main () at src/ptest/main.cpp:8
+8	  BP::test(1);
+Breakpoint 2 at 0x4006d3: file src/ptest/bp.cpp, line 11.
+
+Breakpoint 2, BP::test (n=1) at src/ptest/bp.cpp:11
+11	  bool ret = Calculate::isEven(n);
+$1 = 4
+Breakpoint 3 at 0x40068c: file src/ptest/calculate.cpp, line 11.
+
+Breakpoint 3, Calculate::add (a=4, b=5) at src/ptest/calculate.cpp:11
+11	  return a + b;
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.208s
+
+OK

@@ -1,0 +1,12 @@
+
+Breakpoint 1 at 0x4006fe: file src/ptest/main.cpp, line 8.
+
+Breakpoint 1, main () at src/ptest/main.cpp:8
+8	  BP::test(1);
+test_make_pair_struct (__main__.Test)
+[makePair] ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.019s
+
+OK

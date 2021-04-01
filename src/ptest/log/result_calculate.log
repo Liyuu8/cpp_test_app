@@ -1,0 +1,16 @@
+
+Breakpoint 1 at 0x4006fe: file src/ptest/main.cpp, line 8.
+
+Breakpoint 1, main () at src/ptest/main.cpp:8
+8	  BP::test(1);
+test_add_func (__main__.Test)
+[Calculate::add] ... ok
+test_calculate_is_even_func (__main__.Test)
+[Calculate::isEven] ... ok
+test_calculate_is_odd_func (__main__.Test)
+[Calculate::isOdd] ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.041s
+
+OK
